@@ -1,0 +1,27 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.row-redirect {
+  &:hover {
+    cursor: pointer;
+    background: rgba(236, 236, 236, 0.5);
+  }
+}
